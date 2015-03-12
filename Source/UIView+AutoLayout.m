@@ -407,7 +407,6 @@
             for (int i=0; i<views.count+1; i++)
             {
                 UIView *auxView = [UIView autoLayoutView];
-                [auxView setBackgroundColor:[UIColor yellowColor]];
                 [auxViews addObject:auxView];
                 [self addSubview:auxView];
                 
@@ -447,7 +446,6 @@
             for (int i=0; i<views.count-1; i++)
             {
                 UIView *auxView = [UIView autoLayoutView];
-                [auxView setBackgroundColor:[UIColor yellowColor]];
                 [auxViews addObject:auxView];
                 [self addSubview:auxView];
                 
