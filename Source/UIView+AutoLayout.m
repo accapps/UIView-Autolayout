@@ -462,7 +462,7 @@
             }
         }
         
-        [NSLayoutConstraint activateConstraints:constraints];
+        [self addConstraints:constraints];
         return [constraints copy];
     }
 }
