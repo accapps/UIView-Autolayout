@@ -9,14 +9,14 @@ Here's the API documentation [on Cocoadocs](http://cocoadocs.org/docsets/UIView-
 
 The demo project is most of the way towards drawing a robot made of views arranged using all the category methods:
 
-![robot](https://raw.github.com/jrturton/UIView-Autolayout/master/screenshot.png)
+![robot](https://raw.githubusercontent.com/dkk/UIView-Autolayout/master/screenshot.png)
 
 Installation
 -------------
 
 **Using [Cocoapods](http://cocoapods.org/):**
 
-`pod 'UIView-Autolayout', '~> 0.2.0'`
+`pod 'UIView-Autolayout', '~> 0.2.1'`
 
 **Manually:**
 
@@ -30,6 +30,6 @@ All deprecated methods are marked with a compiler flag providing instructions on
 
 If you are using Cocoapods and do not wish to upgrade to version 1.0.0 then you can specify the following in your Podfile:
 
-`pod 'UIView-Autolayout', '~> 0.2.0'`
+`pod 'UIView-Autolayout', '~> 0.2.1'`
 
 This will prevent Cocoapods installing any 1.0.0 updates.
