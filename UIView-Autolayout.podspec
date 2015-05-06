@@ -5,9 +5,9 @@ Pod::Spec.new do |s|
   s.platform     = :ios, '6.0'
   
   s.summary      = 'Category on UIView to simplify the creation of common layout constraints.'
-  s.homepage     = 'https://github.com/dkk/UIView-Autolayout'
+  s.homepage     = 'https://github.com/jrturton/UIView-Autolayout'
   s.author       = { 'Richard Turton' => 'jrturton@gmail.com' }
-  s.source       = { :git => 'https://github.com/jrturton/UIView-Autolayout.git', :tag => s.version.to_s }
+  s.source       = { :git => 'https://github.com/dkk/UIView-Autolayout.git', :tag => s.version.to_s }
   
   s.source_files = 'Source/*.{h,m}'
   
